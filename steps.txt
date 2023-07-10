@@ -1,0 +1,11 @@
+npm install gh-pages --save-dev
+
+at package json add this
+  "homepage":"https://chiragdhruve01.github.io/reactgithubpages",
+
+and add in scripts in package json 
+   "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
+
+then run npm run deploy

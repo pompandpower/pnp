@@ -1,0 +1,150 @@
+.contact-us-page {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin-right:55px;
+    /* font-family: 'Poppins', sans-serif; */
+  }
+  .two-column-layout {
+    display: flex;
+  }
+  
+  .left-section {
+    flex: 1;
+    margin-right: 2px;
+    /* background-color: #f2f2f2; */
+    /* padding: 20px; */
+  }
+  
+  .right-section {
+    flex: 1;
+    margin-left: 20px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+  }
+  
+  .contact-us-page__content {
+    max-width: 600px;
+    padding: 40px;
+    margin-top:110px;
+    /* background-color: #888AF4; */
+    border-radius: 8px;
+    color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .contact-us-page__content h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-us-page__content p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    transition: 0.2s ease all;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  input:focus + label,
+  textarea:focus + label,
+  select:focus + label,
+  input:not(:placeholder-shown) + label,
+  select:not(:placeholder-shown) + label,
+
+  textarea:not(:placeholder-shown) + label {
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 0px;
+    transform: translateY(-20px);
+    color: white;
+  }
+  
+  button[type='submit'] {
+    /* display: block; */
+    width: 34%;
+    padding: 10px;
+    background-color: #934cce5e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s ease all;
+  }
+  
+  input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(113 58 153 / 96%);
+    opacity: 1; /* Firefox */
+  } 
+  textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(113 58 153 / 96%);
+    opacity: 1; /* Firefox */
+  } 
+
+  button[type='submit']:hover {
+    background-color: #888AF4;
+  }
+
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color:rgb(113 58 153 / 96%);
+    background-color: #f2f2f2;
+    transition: 0.2s ease all;
+    /* height: 120px; */
+  }
+  
+  /* Same as previous CSS styles */
+
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.dropdown-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+}
+

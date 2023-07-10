@@ -1,0 +1,80 @@
+.carousel {
+    width: 100%;
+    padding:70px !important;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-title{
+    color: #dc96f8;
+  }
+    
+  .cssliderlt {
+    border-left: 2px solid #dc96f8;
+    padding:20px;
+  }
+
+  a.home-social-icons {
+    font-size: 10px;
+  }
+  .carousel-image {
+    width: calc(100% / 1.2);
+    height: auto;
+  }
+  
+  .meet-founder {
+    padding:100px !important;
+    display: flex;
+  }
+  .meet-the-founder {
+    padding:30px !important;
+    color:white;
+    display: flex;
+    border-radius: 40px;
+    border: 2px solid #dc96f8;
+  }
+  
+  .founderss{
+    border: 2px solid purple;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    /* background-color: #f0f0f0; */
+  }
+  .left-section h1{
+    font-size:45px;
+    /* background-color: #f0f0f0; */
+  }
+  
+  .middle-section {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  
