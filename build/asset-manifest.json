@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/pnp/static/css/main.0f6cc0d2.css",
+    "main.js": "/pnp/static/js/main.84972379.js",
+    "static/js/415.4d6acbeb.chunk.js": "/pnp/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/pnp/static/js/787.1ed0c42c.chunk.js",
+    "static/media/work2.png": "/pnp/static/media/work2.af7c460efbcee08d7e9c.png",
+    "static/media/work5.png": "/pnp/static/media/work5.5aeba6426a8f7066c951.png",
+    "static/media/work3.png": "/pnp/static/media/work3.3a719f72e3c95efeacc6.png",
+    "static/media/work1.png": "/pnp/static/media/work1.092f0ad54d9214f1c331.png",
+    "static/media/homeimg.png": "/pnp/static/media/homeimg.c038b01db4c6839d7888.png",
+    "static/media/img3.png": "/pnp/static/media/img3.d288283721092074ff87.png",
+    "static/media/4.png": "/pnp/static/media/4.125dc2cdd86880220c44.png",
+    "static/media/work4.jpg": "/pnp/static/media/work4.70e82fc166437defb1ba.jpg",
+    "static/media/91356.jpg": "/pnp/static/media/91356.c09feace66ebc6e5aa04.jpg",
+    "static/media/work6.jpg": "/pnp/static/media/work6.1e658f9638882a64c190.jpg",
+    "static/media/s5.png": "/pnp/static/media/s5.9bfec2d038169bccef97.png",
+    "static/media/s4.png": "/pnp/static/media/s4.c10dd38e4f29b5fdb003.png",
+    "static/media/pnpdesigns.png": "/pnp/static/media/pnpdesigns.da51c9be25e13841b2c5.png",
+    "static/media/s6.png": "/pnp/static/media/s6.ba8fe98060b8b35dde45.png",
+    "static/media/s3.png": "/pnp/static/media/s3.1e49f59fb9fcabf3acdd.png",
+    "static/media/s1.png": "/pnp/static/media/s1.0513a4dbc9e0e762347b.png",
+    "static/media/s2.png": "/pnp/static/media/s2.becb0fc2522e17b964be.png",
+    "static/media/bgimg.png": "/pnp/static/media/bgimg.3770706fb6375a9a3143.png",
+    "static/media/home-bg.jpg": "/pnp/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/logo.png": "/pnp/static/media/logo.7e82e8ea54b05af4a53e.png",
+    "static/media/pre.svg": "/pnp/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/pnp/index.html",
+    "main.0f6cc0d2.css.map": "/pnp/static/css/main.0f6cc0d2.css.map",
+    "main.84972379.js.map": "/pnp/static/js/main.84972379.js.map",
+    "415.4d6acbeb.chunk.js.map": "/pnp/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/pnp/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f6cc0d2.css",
+    "static/js/main.84972379.js"
+  ]
+}
