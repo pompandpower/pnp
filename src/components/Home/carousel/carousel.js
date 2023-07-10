@@ -39,8 +39,8 @@ const Carousel = () => {
                         <img
                             className={index === 0 ? "carousel-image" : "carousel-image cssliderlt"}
                             src={image[0]}
-                            alt={`Image ${index}`}
-                        />
+                            alt="By Pomp & Power Designs"
+                            />
                         <div className="carousel-title">{image[1]}</div>
                     </div>
                 ))}
