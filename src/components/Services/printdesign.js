@@ -59,7 +59,7 @@ function PrintDesign() {
             alt="home pic"
             className="servicelogo"
           />
-          <p style={{ fontSize: "12px" }}>Posture Design</p>
+          <p style={{ fontSize: "12px" }}>Poster Design</p>
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
