@@ -29,7 +29,7 @@ const Footerhme = () => {
             <br />
             <br />
             <Button
-              href="./contact"
+              href="#/contact"
               target="_blank"
               className="design"
               style={{ marginLeft: "10px", fontSize: "14px", padding: "20px", borderRadius: "10px" }}
