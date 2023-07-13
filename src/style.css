@@ -167,8 +167,8 @@ button:focus {
 .logo {
   /* height: 1.4em !important; */
   /* width: 2.5em !important; */
-  height: 180px;
-  width: 180px;
+  height: 220px;
+  width: 220px;
 }
 
 .navbar-nav .nav-link {
@@ -611,7 +611,9 @@ button:focus {
 
 
 
-
+.servicelogo{
+  width:75px;
+}
 
 
 

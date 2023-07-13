@@ -34,13 +34,12 @@ const Footerhme = () => {
               className="design"
               style={{ marginLeft: "10px", fontSize: "14px", padding: "20px", borderRadius: "10px" }}
             >
-              {/* <div style={{ fontSize : "10px"}}>Let's Work Together !</div> */}
               <div>Let's Work Together !</div>
             </Button><br></br>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://python-412bf.web.app/"
+                  href="https://twitter.com/pomp_power"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -50,7 +49,7 @@ const Footerhme = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://python-412bf.web.app/"
+                  href="https://www.linkedin.com/company/pomp-power-designs/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -60,7 +59,7 @@ const Footerhme = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://python-412bf.web.app/"
+                  href="https://www.instagram.com/pnp.designs/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

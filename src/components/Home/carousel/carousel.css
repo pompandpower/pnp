@@ -15,9 +15,12 @@
     color: #dc96f8;
   }
     
-  .cssliderlt {
+  /* .cssliderlt {
     border-left: 2px solid #dc96f8;
     padding:20px;
+  } */
+  .newcssslider {
+    border-left: 2px solid #dc96f8;
   }
 
   a.home-social-icons {

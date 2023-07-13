@@ -2,12 +2,21 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/work4.jpg";
-import emotion from "../../Assets/work6.jpg";
-import editor from "../../Assets/work3.png";
-import chatify from "../../Assets/work1.png";
-import suicide from "../../Assets/work5.png";
-import bitsOfCode from "../../Assets/work2.png";
+// import leaf from "../../Assets/work4.jpg";
+// import emotion from "../../Assets/work6.jpg";
+// import editor from "../../Assets/work3.png";
+// import chatify from "../../Assets/work1.png";
+// import suicide from "../../Assets/work5.png";
+// import bitsOfCode from "../../Assets/work2.png";
+import work1 from '../../Assets/work/work1.png'
+import work2 from '../../Assets/work/work2.jpeg'
+import work3 from '../../Assets/work/work3.png'
+import work4 from '../../Assets/work/work4.jpg'
+import work5 from '../../Assets/work/work5.png'
+import work6 from '../../Assets/work/work6.png'
+import work7 from '../../Assets/work/work7.jpg'
+import work8 from '../../Assets/work/work8.jpg'
+import work9 from '../../Assets/work/work9.jpg'
 
 function Projects() {
   return (
@@ -15,82 +24,99 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Work <strong className="purple">Portfolio </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        {/* <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
-        </p>
+        </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={work7}
               isBlog={false}
-              title="Brochure Design"
-              // description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Logo Design"
               description="By"
               author="Pomp & Power Designs"
-            // ghLink="https://github.com/chiragdhruve01/Chatify"
-            // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Invitation Card Design"
-              description="By"
-              author="Pomp & Power Designs"
-            // description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-            // ghLink="https://github.com/chiragdhruve01/Bits-0f-C0de"
-            // demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Brochure Design"
-              description="By"
-              author="Pomp & Power Designs"
-            // description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-            // ghLink="https://github.com/chiragdhruve01/Editor.io"
-            // demoLink=""              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
+              imgPath={work9}
               isBlog={false}
               title="Business Card Design"
               description="By"
               author="Pomp & Power Designs"
-            // description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-            // ghLink="https://github.com/chiragdhruve01/Plant_AI"
-            // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Wedding Invitation"
-              description="By"
-              author="Pomp & Power Designs"
-            // description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-            // ghLink="https://github.com/chiragdhruve01/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
+              imgPath={work8}
               isBlog={false}
               title="Logo Design"
+              description="By"
+              author="Pomp & Power Designs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={work1}
+              isBlog={false}
+              title="Brochure Design"
+              description="By"
+              author="Pomp & Power Designs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={work2}
+              isBlog={false}
+              title="Invitation Card Design"
+              description="By"
+              author="Pomp & Power Designs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={work3}
+              isBlog={false}
+              title="Brochure Design"
+              description="By"
+              author="Pomp & Power Designs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={work5}
+              isBlog={false}
+              title="Website Design"
+              description="By"
+              author="Pomp & Power Designs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={work4}
+              isBlog={false}
+              title="Branding"
+              description="By"
+              author="Pomp & Power Designs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={work6}
+              isBlog={false}
+              title="Website & Case Study"
               description="By"
               author="Pomp & Power Designs"
             // description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.

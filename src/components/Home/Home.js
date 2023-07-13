@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import pnpdesign from "../../Assets/Projects/pnpdesigns.png";
-import homeLogoImg from "../../Assets/homeimg.png";
+import valueimg from "../../Assets/home/value.png";
+import homeLogoImg from "../../Assets/home/homeimg.png";
 import Particle from "../Particle";
 import Type from "./Type";
 import Carousel from './carousel/carousel'
@@ -35,23 +36,47 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        <Row>
-          <Col md={1} className="home-header">
-
-          </Col>
-          <Col md={10} className="">
-            <img
-              src={pnpdesign}
-              alt="home pic"
-              className="img-fluid"
-              style={{ maxHeight: "550px" }}
-            />
-          </Col>
-          <Col md={1} className="home-header">
-          </Col>
-        </Row>
       </Container>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Carousel />
+      <Container fluid className="" id="home">
+        <Container className="">
+          <Row>
+            <Col md={12} className="">
+              <img
+                src={valueimg}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "550px" }}
+              />
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+      <Container fluid className="home-section" id="home">
+        <Container className="home-content">
+          <Row>
+            <Col md={1} className="home-header">
+
+            </Col>
+            <Col md={10} className="">
+              <img
+                src={pnpdesign}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "550px" }}
+              />
+            </Col>
+            <Col md={1} className="home-header">
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+
       <MeetTheFounder />
       <Footerhme />
     </section>

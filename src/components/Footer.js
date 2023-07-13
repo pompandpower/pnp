@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -23,17 +22,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://python-412bf.web.app/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://python-412bf.web.app/"
+                href="https://twitter.com/pomp_power"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
