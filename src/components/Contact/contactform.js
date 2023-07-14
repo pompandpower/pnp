@@ -53,7 +53,7 @@ const ContactUsPage = () => {
     <div className="contact-us-page">
       <div className="two-column-layout">
         <div className="left-section">
-          <img src={laptopImg} alt="about" className="img-fluid" />
+          <img src={laptopImg} alt="about" className="img-fluid contactimage" />
 
         </div>
         <div className="right-section">
@@ -142,12 +142,9 @@ const ContactUsPage = () => {
               </div>
             </form>
             <Particle />
-
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };

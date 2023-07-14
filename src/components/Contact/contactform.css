@@ -10,20 +10,6 @@
     display: flex;
   }
   
-  .left-section {
-    flex: 1;
-    margin-right: 2px;
-    /* background-color: #f2f2f2; */
-    /* padding: 20px; */
-  }
-  
-  .right-section {
-    flex: 1;
-    margin-left: 20px;
-    /* background-color: #f2f2f2; */
-    padding: 20px;
-  }
-  
   .contact-us-page__content {
     max-width: 600px;
     padding: 40px;

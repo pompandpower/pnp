@@ -2,13 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../Assets/91356.jpg";
+import laptopImgSecond from "../../Assets/aboutsecond.png";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" , marginBottom : "40px"}}>
+        <Row style={{ justifyContent: "center", padding: "10px", marginBottom: "40px" }}>
           <Col
             md={6}
             style={{
@@ -43,19 +44,29 @@ function About() {
             <img src={laptopImg} style={{ marginTop: "-90px" }} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <Row style={{ justifyContent: "center", padding: "10px", marginBottom: "40px" }}>
+          <Col
+            md={6}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={laptopImgSecond} style={{ marginTop: "-90px" }} alt="about" className="img-fluid" />
+          </Col>
+          <Col
+            md={6}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <span className="poppins-extralight" style={{ textAlign: "left" }}>
+              <strong className="purple">Grow your business with us </strong>and unlock new possibilities for success. <br></br>We believe in the power of collaboration and are dedicated to supporting your business growth. <br></br><br></br>With our expertise and innovative solutions, we can help you navigate the ever-changing business landscape and achieve your goals.<br></br> <br></br>Together, we will identify areas of improvement, develop a strategic growth plan, and leverage data-driven insights to drive results.<br></br> <br></br>From enhancing your marketing and branding efforts to optimizing customer experiences, we will work side by side to unlock new opportunities and propel your business forward.<br></br> <br></br>Our commitment to continuous optimization ensures that we adapt to market dynamics and deliver tangible, sustainable growth. <br></br><br></br>Trust us to be your partner in business growth and let's embark on this exciting journey together.
+            </span>
+          </Col>
 
-        {/* <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
+        </Row>
 
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
-
-        <Github /> */}
       </Container>
     </Container>
   );
