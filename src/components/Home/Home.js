@@ -57,8 +57,8 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Container fluid className="home-section" id="home">
-        <Container className="home-content">
+      <Container fluid className="home-section home-conten" id="home">
+        <Container className="home-conten">
           <Row>
             <Col md={1} className="home-header">
 

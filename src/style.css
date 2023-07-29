@@ -150,6 +150,10 @@ button:focus {
   opacity: 0.9 !important;
 }
 
+.home-conten{
+  margin-top:100px;
+}
+
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
@@ -217,6 +221,10 @@ button:focus {
 
   .contactimage {
     content: url(./Assets/contact.png); /* Replace with the path to your mobile image */
+  }
+
+  .home-conten{
+    margin-top:0px;
   }
 
 }
