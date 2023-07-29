@@ -549,6 +549,24 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+@media screen and (max-width: 768px) {
+  .about-img {
+    order: 1; /* Move the image column above the text column */
+    padding-top: 30px; /* Add any necessary padding adjustments */
+    padding-bottom: 0; /* Adjust the padding as needed */
+  }
+
+  .about-img img {
+    margin-top: 0; /* Reset the margin-top for the image */
+  }
+
+  .abot-modify{
+      margin-bottom: 60px !important;
+  }
+}
+
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -556,6 +574,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
+  margin-bottom : 30px;
   background-image: var(--section-background-color) !important;
 }
 
@@ -656,6 +675,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  margin-bottom : 30px;
   text-align: left;
 }
 .service-about-section {
@@ -663,6 +683,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  margin-bottom : 30px;
   color: white !important;
 }
 

@@ -9,9 +9,10 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px", marginBottom: "40px" }}>
+        <Row  style={{ justifyContent: "center", padding: "10px", marginBottom: "40px" }}>
           <Col
             md={6}
+            className="abot-modify"
             style={{
               justifyContent: "center",
               paddingTop: "30px",
