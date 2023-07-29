@@ -58,23 +58,21 @@ function Home() {
         </Container>
       </Container>
       <Container fluid className="home-section home-conten" id="home">
-        <Container className="home-conten">
-          <Row>
-            <Col md={1} className="home-header">
+        <Row>
+          <Col md={1} className="home-header">
 
-            </Col>
-            <Col md={10} className="">
-              <img
-                src={pnpdesign}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "550px" }}
-              />
-            </Col>
-            <Col md={1} className="home-header">
-            </Col>
-          </Row>
-        </Container>
+          </Col>
+          <Col md={10} className="">
+            <img
+              src={pnpdesign}
+              alt="home pic"
+              className="img-fluid"
+              style={{ maxHeight: "550px" }}
+            />
+          </Col>
+          <Col md={1} className="home-header">
+          </Col>
+        </Row>
       </Container>
 
       <MeetTheFounder />
