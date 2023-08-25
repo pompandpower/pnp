@@ -9,6 +9,10 @@ import Carousel from './carousel/carousel'
 import MeetTheFounder from './founder'
 import Footerhme from './footerhome'
 
+const openLinkInNewTab = () => {
+  window.open("/pnp/ppd.pdf", "_blank");
+};
+
 function Home() {
   return (
     <section>
@@ -20,10 +24,15 @@ function Home() {
               <div style={{ paddingBottom: 15, fontWeight: "bold", fontSize: 55, fontFamily: 'Poppins' }} className="heading">
                 <bold>Transforming Your <br></br>  <span style={{ color: '#de82ebe8' }}> Digital Presence </span><br></br>  Creatively {"\n"}{" "}</bold>
               </div>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, textAlign: "left", marginTop: "-20px" }}>
                 <Type />
               </div>
+              <button
+                target="_blank"
+                className="designhome"
+                style={{ marginLeft: "45px", fontSize: "14px", padding: "11px", borderRadius: "10px" }}
+                onClick={openLinkInNewTab}
+              >Company Broucher</button>
             </Col>
 
             <Col md={6} style={{ paddingBottom: 20 }}>

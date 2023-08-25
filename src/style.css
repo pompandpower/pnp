@@ -353,7 +353,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -483,6 +483,25 @@ button:focus {
   color: #87209e;
   box-shadow: 0 0 5px #87209e;
   text-shadow: 0 0 2px #87209e;
+}
+
+.designhome{
+  background: #87209e ;
+  color: white;
+  /* z-index: 9999 !important;  */
+  position: absolute !important; 
+  border: 1.7px solid purple;
+}
+
+.designhome:hover {
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e;
+  background: rgba(222, 130, 235, 0.91) !important;
+  border: 1.7px solid purple !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  transition: 0.5s;
+  transform: scale(1.1);
+  overflow: hidden !important;
 }
 
 .design{
